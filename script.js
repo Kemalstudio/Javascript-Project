@@ -1,5 +1,2 @@
-var name = 'Jack';
-console.log(name);
-name = 'Jane';
-console.log(name);
-var color
+const name = "KA";
+console.log(name)
