@@ -1,4 +1,4 @@
 const name = "KA";
 console.log(name)
 
-const color = 
+const color = 'red'
