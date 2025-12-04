@@ -24,4 +24,4 @@ switch (weekday) {
         break;
 }
 
-// constweekday = 'sunda'; case monday, tuesday, wednesday, thursday, friday, sat
+// constweekday = 'sunda'; case monday, tuesday, wednesday, thursday, friday, sa
