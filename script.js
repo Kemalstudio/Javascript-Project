@@ -1,9 +1,10 @@
-let x = String(1112);
-x = String(2 + 2);
-x = String(false)
-x = new Date();
+const firstNumber = 50;
+const secondNumber = 10;
+
+// SImple math operations
+result = firstNumber + secondNumber;
+result = firstNumber - secondNumber;
 
 
-console.log(x);
-console.log(typeof x);
-console.log(x.length);
+
+console.log(result)
