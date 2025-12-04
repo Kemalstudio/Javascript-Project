@@ -18,3 +18,4 @@ cartHtml += `
 `
 
 cartHtml += `
+    </div>
