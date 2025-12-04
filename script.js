@@ -1,7 +1,7 @@
 const firstNumber = 50;
 const secondNumber = 10;
 
-// SImple math opera
+// SImple math oper
 result = firstNumber + secondNumber;
 result = firstNumber - secondNumber;
 
