@@ -23,7 +23,7 @@
 	let category;
 	if (bmi < 18.5) category = 'Недостаточная масса тела';
 	else if (bmi < 25) category = 'Нормальная масса тела';
-	else if (bmi < 30) category = 'Избыточная масса тела (предожирение)';
+	else if (bmi < 30) category = 'Избыточ ная масса тела (предожирение)';
 	else category = 'Ожирение';
 
 	alert(`Ваш BMI: ${bmiRounded}\nКатегория: ${category}`);
