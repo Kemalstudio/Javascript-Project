@@ -2,7 +2,7 @@
 	function askNumber(question) {
 		while (true) {
 			const input = prompt(question);
-			if (input === null) return null; // user canc
+			if (input === null) return null; // user can
 			const normalized = input.replace(',', '.').trim();
 			const value = Number(normalized);
 			if (!isNaN(value) && value > 0) return value;
