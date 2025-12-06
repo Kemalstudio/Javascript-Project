@@ -17,10 +17,7 @@
 	if (heightCm === null) { alert('Операция отменена.'); return; }
 
 	const heightM = heightCm / 100;
-	// const heightM = heightCm / 100;
 	const bmi = weight / (heightM * heightM);
-	// const bmi = weight / (heightM ** 2);
-	const bmiRounded = Math.round(bmi *10) / 10
 	const bmiRounded = Math.round(bmi * 10) / 10;
 
 	let category;
