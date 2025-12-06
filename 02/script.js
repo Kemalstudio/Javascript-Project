@@ -23,5 +23,3 @@ switch (weekday) {
         console.log('It is Sunday');
         break;
 }
-
-// constweekday = 'sunda'; case monday, tuesday, wednesday, thursday, f
