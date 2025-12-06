@@ -1,5 +1,6 @@
 const weekday = 'sunda';
 
+
 switch (weekday) {
     case 'monday':
         console.log('It is Monday');
