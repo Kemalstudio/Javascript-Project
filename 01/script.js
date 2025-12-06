@@ -2,12 +2,14 @@
 	function askNumber(question) {
 		while (true) {
 			const input = prompt(question);
-			if (input === null) return null; // user ca
+			if (input === null) return null; // user c
 			const normalized = input.replace(',', '.').trim();
 			const value = Number(normalized);
 			if (!isNaN(value) && value > 0) return value;
 			alert('Пожалуйста, введите положительное число.');
 		}
+
+		const value = Number(normalized)	
 	}
 
 	const weight = askNumber('Введите вес в килограммах (например, 70):');
