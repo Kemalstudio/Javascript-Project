@@ -1,6 +1,7 @@
-for(let rep = 1; rep <= 10; rep = rep + 2) {
-    console.log(`Push ups repetition ${rep}`);
-    console.log('Hello!')
+for(let rep = 1; rep <= 3; rep++) {
+    console.log(`Повторение упражнения ${rep} 🏋️‍♂️`);
 }
 
-console.log('Out of loop');
+whilte (rep <= 10) {
+    console.log(`Push ups repetition ${rep}`)
+}
