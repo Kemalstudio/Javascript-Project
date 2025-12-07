@@ -6,4 +6,4 @@ while (false) {}
 const calcAge = birthYear => 2021 - birthYear;
 
 
-// const calcAge = birthYear => 2021 - birt
+// const calcAge = birthYear => 2021 - bir
