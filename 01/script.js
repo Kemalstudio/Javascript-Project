@@ -8,8 +8,6 @@
 			if (!isNaN(value) && value > 0) return value;
 			alert('Пожалуйста, введите положительное число.');
 		}
-
-		const value = Number(normalized)	
 	}
 
 	const weight = askNumber('Введите вес в килограммах (например, 70):');
