@@ -17,6 +17,9 @@
 
 document.querySelector('.check').addEventListener('click', function() {
     const quessingNumber =  document.querySelector('.number-input').value;
-    console.log(quessingNumber);
-    
+    console.log(quessingNumber, typeof quessingNumber);
+
+    if (!quessingNumber) {
+
+    }
 })
