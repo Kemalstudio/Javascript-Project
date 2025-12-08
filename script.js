@@ -9,7 +9,6 @@ const printHumiditiesForecast = function(arr) {
     }
 
     console.log(str);
-    
 }
 
 printHumiditiesForecast(data1);
