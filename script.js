@@ -1,9 +1,16 @@
-'use strict';
+const celciusToKelvin = function () {
+    const measurement = {
+        type: 'temperature',
+        unit: 'celsius',
+        value: prompt('Degrees Celsius:'),
+    };
 
-const MyVar = 'asffa';
-while (false) {}
+    console.log(measurement.value)
+    console.warn(measurement.value);
+    console.error(measurement.value);
 
-const calcAge = birthYear => 2021 - birthYear;
+    const kelvin = measurement.value + 273;
+    return kelvin;
+};
 
-
-// con
+console.log(cerciusToKelvin());
