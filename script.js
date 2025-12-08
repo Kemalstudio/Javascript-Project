@@ -1,16 +1,8 @@
-const celciusToKelvin = function () {
-    const measurement = {
-        type: 'temperature',
-        unit: 'celsius',
-        value: prompt('Degrees Celsius:'),
-    };
+const data1 = [49, 51, 63];
+const data2 = [31, 29, 43, 58, 52];
 
-    console.log(measurement.value)
-    console.warn(measurement.value);
-    console.error(measurement.value);
-
-    const kelvin = measurement.value + 273;
-    return kelvin;
-};
-
-console.log(cerciusToKelvin());
+const printHumiditiesForecast = function(arr) {
+    for (let i =0;  i < arr.length; i++) {
+        
+    }
+}
