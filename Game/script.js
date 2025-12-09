@@ -15,6 +15,7 @@ score0Element.textContent = 0;
 score1Element.textContent = 0;
 diceElement.classList.add('hidden');
 
+const totalScores = [0, 0];
 let currnetScore = 0;
 let activePlayer = 0;
 
