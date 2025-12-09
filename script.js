@@ -12,10 +12,12 @@ document.querySelector('.check').addEventListener('click', function () {
 
   // Когда игрок ничего не ввёл
   if (!guess) {
-    document.querySelector('.guess-message').textContent = '⛔ Нет числа!';
+    document.querySelector('.guess-message').textContent = 'Нет числа!';
 
   } else if (guess === secretNumber) {
-    document.querySelector('.guess-message').textContent = '🎉 Правильно!';
+    document.querySelector('.guess-message').textContent = 'Правильно!';
+    document.querySelector('body').style.backgroundColor = '#60b347';
+    document.querySelector('.question').style.width = '30rem';
 
   } else if (guess !== secretNumber) {
     if (score > 1) {
