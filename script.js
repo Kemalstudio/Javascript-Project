@@ -3,7 +3,7 @@
 let secretNumber = Math.trunc(Math.random() * 20) + 1;
 let score = 20;
 
-document.querySelector('.question').textContent = secretNumber;
+
 
 
 document.querySelector('.check').addEventListener('click', function () {
@@ -17,6 +17,7 @@ document.querySelector('.check').addEventListener('click', function () {
 
   } else if (guess === secretNumber) {
     document.querySelector('.guess-message').textContent = 'Правильно!';
+    document.querySelector('.question').textContent = secretNumber;
     document.querySelector('body').style.backgroundColor = '#60b347';
     document.querySelector('.question').style.width = '50rem';
 
@@ -32,3 +33,8 @@ document.querySelector('.check').addEventListener('click', function () {
     }
   }
 });
+
+document.querySelector('.again').addEventListener('click', function () {
+
+});
+
