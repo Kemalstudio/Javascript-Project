@@ -17,7 +17,7 @@ document.querySelector('.check').addEventListener('click', function () {
   } else if (guess === secretNumber) {
     document.querySelector('.guess-message').textContent = 'Правильно!';
     document.querySelector('body').style.backgroundColor = '#60b347';
-    document.querySelector('.question').style.width = '30rem';
+    document.querySelector('.question').style.width = '50rem';
 
   } else if (guess !== secretNumber) {
     if (score > 1) {
