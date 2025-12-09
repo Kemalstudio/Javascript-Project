@@ -31,6 +31,7 @@ btnRoll.addEventListener('click', function () {
     if (diceNumber !== 1) {
         // Finish the game
         currnetScore += diceNumber;
+        document.getElementById(`current--${activePlayer}`).textContent = currnetScore;
         current0Element.textContent = currnetScore;
     } else {
         // Switch to next player
