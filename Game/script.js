@@ -58,7 +58,7 @@ btnHold.addEventListener('click', function () {
         btnRoll.disabled = true;
         btnHold.disabled = true;
     } else {
-        // Switch to the next player
+        // Switch to the next playe
         currnetScore = 0;
         document.getElementById(`current--${activePlayer}`).textContent = currnetScore;
         activePlayer = activePlayer === 0 ? 1 : 0;
