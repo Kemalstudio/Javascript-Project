@@ -32,11 +32,9 @@ btnRoll.addEventListener('click', function () {
         // Finish the game
         currnetScore += diceNumber;
         document.getElementById(`current--${activePlayer}`).textContent = currnetScore;
-        current0Element.textContent = currnetScore;
     } else {
-        // Switch to next player
-        currentScore = 0;
-        current0Element.textContent = 0;
-        
+        currnetScore = 0;
+        document.getElementById(`current--${activePlayer}`).textContent = currnetScore;
+        activePlyayer = activePlayer === 0 ? 1 : 0;
     }
 })
