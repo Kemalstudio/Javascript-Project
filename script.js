@@ -10,7 +10,7 @@ document.querySelector('.check').addEventListener('click', function () {
 
   console.log(guess, typeof guess);
 
-  // Когда игрок ничего не ввёл
+  // Когда игрок ничего не ввё
   if (!guess) {
     document.querySelector('.guess-message').textContent = 'Нет числа!';
 
