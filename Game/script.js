@@ -16,6 +16,7 @@ score1Element.textContent = 0;
 diceElement.classList.add('hidden');
 
 let currnetScore = 0;
+let activePlayer = 0;
 
 btnRoll.addEventListener('click', function () {
     // 1. Generating a random dice roll
