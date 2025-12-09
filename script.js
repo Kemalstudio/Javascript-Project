@@ -1,33 +1,31 @@
 'use strict';
 
-// console.log(document.querySelector('.guess-message').textContent); 
+let secretNumber = Math.trunc(Math.random() * 20) + 1;
+let score = 20;
 
-// document.querySelector('.guess-message').textContent = 'Правильно!';
-
-// document.querySelector('.question').textContent = 7;
-
-// document.querySelector('.score').textContent = 11;
-
-// console.log(document.querySelector('.number-input').value);
-
-// document.querySelector('.number-input').value = 13;
-
-// console.log(document.querySelector('.number-input').value);
-
-const secretNumber = Math.trunc(Math.random() * 20) + 1;
 document.querySelector('.question').textContent = secretNumber;
 
-document.querySelector('.check').addEventListener('click', function() {
-    const quessingNumber =  document.querySelector('.number-input').value;
-    console.log(quessingNumber, typeof quessingNumber);
+document.querySelector('.check').addEventListener('click', function () {
+  const guess = Number(document.querySelector('.number-input').value);
 
-    if (!quessingNumber) {
-        document.querySelector('.guess-message').textContent = 'Введите число!';
-    } else if (quessingNumber == secretNumber) {
-        document.querySelector('.guess-message').textContent = 'Правильно!';
-    } else if (quessingNumber > secretNumber) {
-        document.querySelector('.guess-message').textContent = 'Слишком много!';
-    } else if (quessingNumber < secretNumber) {
-        document.querySelector('.guess-message').textContent = 'Слишком мало!';
+  console.log(guess, typeof guess);
+
+  // Когда игрок ничего не ввёл
+  if (!guess) {
+    document.querySelector('.guess-message').textContent = '⛔ Нет числа!';
+
+  } else if (guess === secretNumber) {
+    document.querySelector('.guess-message').textContent = '🎉 Правильно!';
+
+  } else if (guess !== secretNumber) {
+    if (score > 1) {
+      document.querySelector('.guess-message').textContent =
+        guess > secretNumber ? 'Слишком много!' : 'Слишком мало!';
+      score--;
+      document.querySelector('.score').textContent = score;
+    } else {
+      document.querySelector('.guess-message').textContent = 'Game Over!';
+      document.querySelector('.score').textContent = 0;
     }
-})
+  }
+});
