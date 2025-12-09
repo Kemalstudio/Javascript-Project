@@ -4,6 +4,7 @@
 const score0Element = document.querySelector('#score--0');
 const score1Element = document.querySelector('#score--1');
 const current0Element = document.getElementById('current--0');
+const current1Element = document.getElementById('current--1');
 const diceElement = document.querySelector('.dice');
 const btnNew = document.querySelector('.btn--new');
 const btnRoll = document.querySelector('.btn--roll');
@@ -28,6 +29,6 @@ btnRoll.addEventListener('click', function () {
     if (diceNumber !== 1) {
         // Finish the game
         currnetScore += diceNumber;
-        do
+        
     }
 })
