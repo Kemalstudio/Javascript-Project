@@ -5,6 +5,7 @@ let score = 20;
 
 document.querySelector('.question').textContent = secretNumber;
 
+
 document.querySelector('.check').addEventListener('click', function () {
   const guess = Number(document.querySelector('.number-input').value);
 
