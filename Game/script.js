@@ -29,6 +29,8 @@ btnRoll.addEventListener('click', function () {
     if (diceNumber !== 1) {
         // Finish the game
         currnetScore += diceNumber;
+        current0Element.textContent = currnetScore;
+    } else {
         
     }
 })
