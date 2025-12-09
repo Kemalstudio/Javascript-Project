@@ -2,13 +2,130 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Свинья</title>
+    <title>Свинья — Игра</title>
 
     <style>
-      /* ===== FIREWORKS ===== */
+      @import url("https://fonts.googleapis.com/css2?family=Play&display=swap");
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html {
+        font-size: 60%;
+      }
+
+      body {
+        font-family: "Play", sans-serif;
+        height: 100vh;
+        background-image: linear-gradient(to top right, #e2b810 0%, #ec3b05 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      main {
+        position: relative;
+        width: 100rem;
+        height: 60rem;
+        background-color: rgba(255, 255, 255, 0.35);
+        backdrop-filter: blur(200px);
+        box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
+        border-radius: 9px;
+        overflow: hidden;
+        display: flex;
+      }
+
+      .player {
+        flex: 50%;
+        padding: 9rem;
+        text-align: center;
+        transition: all 0.75s;
+      }
+
+      .name {
+        font-size: 4rem;
+        font-weight: 300;
+        margin-bottom: 1rem;
+      }
+
+      .score {
+        font-size: 8rem;
+        font-weight: 300;
+        color: #ee7d05;
+        margin-bottom: auto;
+      }
+
+      .current {
+        background-color: #ee7d05;
+        opacity: 0.8;
+        border-radius: 9px;
+        color: #fff;
+        width: 65%;
+        padding: 2rem;
+        margin: 0 auto;
+        transition: all 0.75s;
+      }
+
+      .current-score {
+        font-size: 3.5rem;
+      }
+
+      .player--active {
+        background-color: rgba(255, 255, 255, 0.4);
+      }
+
+      .player--active .name {
+        font-weight: 700;
+      }
+
+      .player--winner {
+        background-color: #2f2f2f;
+      }
+
+      .player--winner .name {
+        font-weight: 700;
+        color: #d50b0b;
+      }
+
+      .btn {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 0.7rem 2.5rem;
+        border-radius: 50rem;
+        background-color: rgba(255, 255, 255, 0.6);
+        font-size: 1.8rem;
+        border: none;
+        cursor: pointer;
+      }
+
+      .btn--new {
+        top: 3rem;
+      }
+      .btn--roll {
+        top: 40rem;
+      }
+      .btn--hold {
+        top: 46rem;
+      }
+
+      .dice {
+        position: absolute;
+        left: 50%;
+        top: 16rem;
+        transform: translateX(-50%);
+        height: 10rem;
+      }
+
+      .hidden {
+        display: none;
+      }
+
+      /* ======== SALUTE ======== */
       .fireworks {
         position: fixed;
         top: 0;
@@ -46,7 +163,7 @@
     <main>
       <section class="player player--0 player--active">
         <h2 class="name" id="name--0">Игрок 1</h2>
-        <p class="score" id="score--0">47</p>
+        <p class="score" id="score--0">0</p>
         <div class="current">
           <p class="current-label">Текущие очки</p>
           <p class="current-score" id="current--0">0</p>
@@ -55,22 +172,137 @@
 
       <section class="player player--1">
         <h2 class="name" id="name--1">Игрок 2</h2>
-        <p class="score" id="score--1">31</p>
+        <p class="score" id="score--1">0</p>
         <div class="current">
           <p class="current-label">Текущие очки</p>
           <p class="current-score" id="current--1">0</p>
         </div>
       </section>
 
-      <img src="/Game/img/dice1.png" alt="Playing dice" class="dice" />
+      <img src="img/dice1.png" alt="Dice" class="dice hidden" />
       <button class="btn btn--new">🐷 Новая игра</button>
-      <button class="btn btn--roll">🎲 Бросить кубик</button>
+      <button class="btn btn--roll">🎲 Бросить</button>
       <button class="btn btn--hold">👌 Оставить</button>
     </main>
 
-    <!-- Контейнер для салюта -->
     <div class="fireworks"></div>
 
-    <script src="script.js"></script>
+    <script>
+      "use strict";
+
+      const score0Element = document.querySelector("#score--0");
+      const score1Element = document.querySelector("#score--1");
+      const current0Element = document.getElementById("current--0");
+      const current1Element = document.getElementById("current--1");
+      const diceElement = document.querySelector(".dice");
+      const btnNew = document.querySelector(".btn--new");
+      const btnRoll = document.querySelector(".btn--roll");
+      const btnHold = document.querySelector(".btn--hold");
+      const player0Element = document.querySelector(".player--0");
+      const player1Element = document.querySelector(".player--1");
+
+      let totalScores = [0, 0];
+      let currnetScore = 0;
+      let activePlayer = 0;
+
+      function switchPlayer() {
+        currnetScore = 0;
+        document.getElementById(`current--${activePlayer}`).textContent = 0;
+        activePlayer = activePlayer === 0 ? 1 : 0;
+        player0Element.classList.toggle("player--active");
+        player1Element.classList.toggle("player--active");
+      }
+
+      // ===== FIREWORKS for 5 seconds =====
+      function launchFireworks() {
+        const container = document.querySelector(".fireworks");
+        container.style.display = "block";
+
+        const interval = setInterval(() => {
+          for (let i = 0; i < 70; i++) {
+            const f = document.createElement("div");
+            f.classList.add("firework");
+
+            const angle = Math.random() * Math.PI * 2;
+            const distance = Math.random() * 250 + 80;
+
+            f.style.setProperty("--dx", `${Math.cos(angle) * distance}px`);
+            f.style.setProperty("--dy", `${Math.sin(angle) * distance}px`);
+            f.style.left = innerWidth / 2 + "px";
+            f.style.top = innerHeight / 2 + "px";
+
+            container.appendChild(f);
+
+            setTimeout(() => f.remove(), 1000);
+          }
+        }, 800);
+
+        setTimeout(() => {
+          clearInterval(interval);
+          container.style.display = "none";
+          container.innerHTML = "";
+        }, 5000);
+      }
+
+      btnRoll.addEventListener("click", function () {
+        const diceNumber = Math.trunc(Math.random() * 6) + 1;
+
+        diceElement.classList.remove("hidden");
+        diceElement.src = `img/dice${diceNumber}.png`;
+
+        if (diceNumber !== 1) {
+          currnetScore += diceNumber;
+          document.getElementById(
+            `current--${activePlayer}`
+          ).textContent = currnetScore;
+        } else {
+          switchPlayer();
+        }
+      });
+
+      btnHold.addEventListener("click", function () {
+        totalScores[activePlayer] += currnetScore;
+        document.getElementById(`score--${activePlayer}`).textContent =
+          totalScores[activePlayer];
+
+        if (totalScores[activePlayer] >= 100) {
+          document
+            .querySelector(`.player--${activePlayer}`)
+            .classList.add("player--winner");
+          document
+            .querySelector(`.player--${activePlayer}`)
+            .classList.remove("player--active");
+
+          diceElement.classList.add("hidden");
+          btnRoll.disabled = true;
+          btnHold.disabled = true;
+
+          launchFireworks(); // 🎆 Салют 5 секунд
+        } else {
+          switchPlayer();
+        }
+      });
+
+      btnNew.addEventListener("click", function () {
+        totalScores = [0, 0];
+        currnetScore = 0;
+        activePlayer = 0;
+
+        score0Element.textContent = 0;
+        score1Element.textContent = 0;
+        current0Element.textContent = 0;
+        current1Element.textContent = 0;
+
+        diceElement.classList.add("hidden");
+        btnRoll.disabled = false;
+        btnHold.disabled = false;
+
+        player0Element.classList.add("player--active");
+        player1Element.classList.remove("player--active");
+        player0Element.classList.remove("player--winner");
+        player1Element.classList.remove("player--winner");
+      });
+    </script>
   </body>
 </html>
+ 
