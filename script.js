@@ -13,7 +13,7 @@ document.querySelector('.check').addEventListener('click', function () {
   if (!guess) {
     document.querySelector('.guess-message').textContent = 'Нет числа!';
 
-    // Когда игрок уга
+    // Когда игрок уг
   } else if (guess === secretNumber) {
     document.querySelector('.guess-message').textContent = 'Правильно!';
     document.querySelector('.question').textContent = secretNumber;
