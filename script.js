@@ -20,7 +20,7 @@ document.querySelector('.check').addEventListener('click', function () {
     document.querySelector('body').style.backgroundColor = '#60b347';
     document.querySelector('.question').style.width = '50rem';
 
-    // Обновляем лучший результат
+    // Обновляем лучший результа
     if (score > highscore) {
       highscore = score;
       document.querySelector('.highscore').textContent = highscore;
