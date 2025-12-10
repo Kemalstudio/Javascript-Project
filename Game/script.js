@@ -118,10 +118,7 @@
           if (Date.now() > end) {
             return clearInterval(interval);
           }
-
-          // Создаем взрыв в случайном месте
-          // X: от 10% до 90% ширины экрана
-          // Y: от 10% до 60% высоты экрана (чтобы было вверху)
+          
           const x = random(window.innerWidth * 0.1, window.innerWidth * 0.9);
           const y = random(window.innerHeight * 0.1, window.innerHeight * 0.6);
 
