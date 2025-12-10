@@ -126,7 +126,6 @@
         }, 300); 
       }
 
-      // ===============================================
 
       btnRoll.addEventListener("click", function () {
         if (isPlaying) {
