@@ -88,7 +88,7 @@
           // Физика разлета
           // Угол и расстояние
           const angle = random(0, Math.PI * 2);
-          const velocity = random(50, 200); // Радиус разлета
+          const velocity = random(50, 200); 
           
           const tx = Math.cos(angle) * velocity;
           const ty = Math.sin(angle) * velocity + random(50, 100); 
