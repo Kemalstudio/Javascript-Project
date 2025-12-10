@@ -174,4 +174,4 @@
         }
       });
 
-      btnNew.addEventListener("click", initGame);
+      btnNew.addEventListener("click", initGame); 
