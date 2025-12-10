@@ -108,7 +108,6 @@
         }
       }
 
-      // Функция запуска салюта на 8 секунд
       function startProfessionalFireworks() {
         const duration = 8000; // 8 секунд
         const end = Date.now() + duration;
