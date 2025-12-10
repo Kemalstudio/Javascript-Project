@@ -101,7 +101,6 @@
           // Добавляем в контейнер
           fireworksContainer.appendChild(p);
 
-          // Удаляем частицу из DOM после анимации (1 сек)
           setTimeout(() => {
             p.remove();
           }, 1000);
