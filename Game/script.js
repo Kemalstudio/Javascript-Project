@@ -113,7 +113,6 @@
         const duration = 8000; // 8 секунд
         const end = Date.now() + duration;
 
-        // Интервал создания взрывов
         const interval = setInterval(function() {
           if (Date.now() > end) {
             return clearInterval(interval);
