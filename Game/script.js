@@ -126,7 +126,6 @@
         }, 300); 
       }
 
-
       btnRoll.addEventListener("click", function () {
         if (isPlaying) {
           const diceNumber = Math.trunc(Math.random() * 6) + 1;
