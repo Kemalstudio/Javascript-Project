@@ -118,12 +118,12 @@
           if (Date.now() > end) {
             return clearInterval(interval);
           }
-          
+
           const x = random(window.innerWidth * 0.1, window.innerWidth * 0.9);
           const y = random(window.innerHeight * 0.1, window.innerHeight * 0.6);
 
           createExplosion(x, y);
-        }, 300); // Каждые 300 мс новый "залп"
+        }, 300); 
       }
 
       // ===============================================
