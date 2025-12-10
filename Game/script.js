@@ -90,8 +90,6 @@
           const angle = random(0, Math.PI * 2);
           const velocity = random(50, 200); // Радиус разлета
           
-          // Вычисляем конечную точку (tx, ty)
-          // Добавляем немного "гравитации" к ty (плюс к Y тянет вниз)
           const tx = Math.cos(angle) * velocity;
           const ty = Math.sin(angle) * velocity + random(50, 100); 
 
