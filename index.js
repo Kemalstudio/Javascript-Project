@@ -6,6 +6,12 @@ function getAge(birthYear) {
     function printAge() {
         const info = `You are ${firstName}, and you are ${age} years old.`;
         console.log(info);
+
+        if(age >= 18) {
+            const adult = `${firstName} is adult`;
+            console.log(adult);
+        
+        }
     }
 
     printAge();
