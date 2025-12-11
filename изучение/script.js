@@ -22,4 +22,4 @@ const user187 = {
 
 user187.getAge();
 
-// const getAgeArrow = (birt
+// const getAgeArrow = (bir
