@@ -22,4 +22,4 @@ const user187 = {
 
 user187.getAge();
 
-// const getAgeArr
+// const getAgeAr
