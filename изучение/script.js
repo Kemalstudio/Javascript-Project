@@ -21,3 +21,5 @@ const user187 = {
 };
 
 user187.getAge();
+
+// const getAgeArrow = (birthYear) => 
