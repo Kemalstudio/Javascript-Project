@@ -23,4 +23,4 @@ const user187 = {
 
 user187.getAge();
 
-// console.log(japaneseRestaurant.workingHours?.mon?.open);
+// console.log(japaneseRestaurant.workingHours?.mon?.open)
