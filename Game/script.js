@@ -85,8 +85,6 @@
           p.style.left = x + "px";
           p.style.top = y + "px";
 
-          // Физика разлета
-          // Угол и расстояние
           const angle = random(0, Math.PI * 2);
           const velocity = random(50, 200); 
           
