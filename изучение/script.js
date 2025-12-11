@@ -21,10 +21,3 @@
 // };
 
 // user187.getAge();
-
-
-
-
-
-
-const ne
