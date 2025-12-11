@@ -21,5 +21,3 @@ const user187 = {
 };
 
 user187.getAge();
-
-/
