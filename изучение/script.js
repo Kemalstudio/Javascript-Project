@@ -24,7 +24,7 @@
 
 
 
-let lasNamte = 'Brown';
-let oldLastName = lasNamte;
-lasNamte = 'White';
-console.log(lasNamte, oldLastName);
+
+
+
+const ne
