@@ -22,4 +22,3 @@ const user187 = {
 
 user187.getAge();
 
-// const ge
