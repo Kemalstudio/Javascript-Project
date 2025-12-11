@@ -12,3 +12,12 @@ const getAgeArr = function (birthYear) {
 };
 
 getAgeArr(2001);
+
+const user187 = {
+    birthYear: 1974,
+    getAge: function () {
+        console.log(this);
+    },
+};
+
+user187.getAge();
