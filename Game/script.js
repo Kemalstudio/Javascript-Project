@@ -154,7 +154,7 @@
             btnRoll.disabled = true;
             btnHold.disabled = true;
 
-            // ЗАПУСК УЛУЧШЕННОГО САЛЮ
+            // ЗАПУСК УЛУЧШЕННОГО САЛ
             startProfessionalFireworks();
           } else {
             switchPlayer();
