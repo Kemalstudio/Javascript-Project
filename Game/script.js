@@ -154,7 +154,7 @@
             btnRoll.disabled = true;
             btnHold.disabled = true;
 
-            // ЗАПУСК УЛУЧШЕННОГО САЛЮТА
+            // ЗАПУСК УЛУЧШЕННОГО САЛЮТ
             startProfessionalFireworks();
           } else {
             switchPlayer();
