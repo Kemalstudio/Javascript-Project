@@ -21,11 +21,8 @@ const user187 = {
     },
 };
 
-console.log(ReadableStreamDefaultController.has(fakse))
-console.log(restraunat.delete(1))
-console.log(ReadableStreamBYOBRequest)
 console.log(day)
 
 user187.getAge();
 
-// console.log(japaneseRestaurant.workin
+// console.log(japaneseRestaurant.worki
