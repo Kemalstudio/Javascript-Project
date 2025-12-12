@@ -21,3 +21,13 @@ makeBooking('TU235', 3, 390);
 makeBooking('QE123', 1);
 makeBooking('QE123', undefined, 400);
 
+const checkIn = function(flightNum, passenger) {
+    flightNum = 'bv328';
+    passenger.firstName = passenger.firstName.toLowerCase();
+    passenger.lastName = passenger.lastName.toLowerCase();
+    if (passenger.passport === HF128490) {
+        alert('Welcome to the board');
+    } esle {
+        
+    }
+}
