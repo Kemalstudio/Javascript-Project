@@ -36,4 +36,5 @@ checkIn(flightNum, passenger1145);
 console.log(flightNum);
 console.log(passenger1145);
 
-fligth = flightNum
+const flight = flightNumber;
+const passenger = 
