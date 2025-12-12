@@ -1,27 +1,13 @@
-// const getAge = function (birthYear) {
-//     console.log(2021 - birthYear)
-//     console.log(this);
-// };
+'use strict';
 
-// getAge(2001);
+const booking = [];
 
-
-
-const getAgeArr = function (birthYear) {
-    console.log(2021 - birthYear)
-    console.log(this);
-};
-
-getAgeArr(2001);
-
-const user187 = {
-    birthYear: 1974,
-    getAge: function () {
-        console.log(this);
-    },
-};
-
-console.log(day)
-user187.getAge(); 
-
-// console.log(j
+const makeBooking = function(flightNum, passengerName, price) {
+    const booking ={
+        flightNum, 
+        passengerName, 
+        price
+    };
+    console.log(booking);
+    booking.push(booking);
+}
