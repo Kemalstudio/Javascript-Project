@@ -23,6 +23,6 @@ const user187 = {
 
 console.log(day)
 
-user187.getAge();
+user187.getAge(); 
 
 // console.log(japaneseR
