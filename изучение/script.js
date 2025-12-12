@@ -25,4 +25,4 @@ console.log(day)
 
 user187.getAge(); 
 
-// console.log(japanes
+// console.log(japane
