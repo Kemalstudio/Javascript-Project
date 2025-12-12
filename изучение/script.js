@@ -20,3 +20,4 @@ makeBooking('QE123');
 makeBooking('TU235', 3, 390);
 makeBooking('QE123', 1);
 makeBooking('QE123', undefined, 400);
+
