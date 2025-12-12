@@ -16,4 +16,5 @@ const makeBooking = function(flightNum, passengersNum = 1, price = 99) {
     bookings.push(booking);
 };
 
-makeBooking('QE123')
+makeBooking('QE123');
+makeBooking('TU235', 3, 390);
