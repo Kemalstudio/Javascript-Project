@@ -25,4 +25,4 @@ console.log(day)
 
 user187.getAge();
 
-// console.log(japaneseRestaurant.workingHo
+// console.log(japaneseRestaurant.workingH
