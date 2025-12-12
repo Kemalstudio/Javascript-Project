@@ -3,8 +3,8 @@
 const bookings = [];
 
 const makeBooking = function(flightNum, passengersNum, price) {
+    passengersNum = passengersNum || 1;
 
-    
     const booking = {
         flightNum, 
         passengersNum, 
