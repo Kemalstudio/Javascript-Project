@@ -40,4 +40,3 @@ const flight = flightNumber;
 const passenger = passenger1145;
 
 changePasswordNumber
-// changePasswordNumber(flight, pas
