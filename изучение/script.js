@@ -21,7 +21,7 @@ const user187 = {
     },
 };
 
-console.log(day)}
+console.log(day)
 
 user187.getAge();
 
