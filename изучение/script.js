@@ -37,4 +37,4 @@ console.log(flightNum);
 console.log(passenger1145);
 
 const flight = flightNumber;
-const passenger = 
+const passenger = passenger1145;
