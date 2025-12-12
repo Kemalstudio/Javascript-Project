@@ -21,6 +21,9 @@ const user187 = {
     },
 };
 
+// for(const day of props) {
+console.log(day)}
+
 user187.getAge();
 
-// console.log(japaneseRestaurant.workingHours?
+// console.log(japaneseRestaurant.workingHour
