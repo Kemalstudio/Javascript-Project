@@ -27,7 +27,13 @@ const checkIn = function(flightNum, passenger) {
     passenger.lastName = passenger.lastName.toLowerCase();
     if (passenger.passport === HF128490) {
         alert('Welcome to the board');
-    } esle {
+    } else {
         alert('Wrong passport');
     }
-}
+};
+
+checkIn(flightNum, passenger1145);
+console.log(flightNum);
+console.log(passenger1145);
+
+fligth = flightNum
