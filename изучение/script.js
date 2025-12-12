@@ -24,4 +24,4 @@ const user187 = {
 console.log(day)
 user187.getAge(); 
 
-// console.log(ja
+// console.log(j
