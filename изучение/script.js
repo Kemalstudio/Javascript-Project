@@ -28,6 +28,6 @@ const checkIn = function(flightNum, passenger) {
     if (passenger.passport === HF128490) {
         alert('Welcome to the board');
     } esle {
-        
+        alert('Wrong passport');
     }
 }
