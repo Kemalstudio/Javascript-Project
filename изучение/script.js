@@ -48,4 +48,4 @@ console.log(airline2);
 boock.call(airline, 111, 'Bob Smitsh');
 console.log(airline1)
 
-// // changePasswordNumbe
+// // changePasswordNumb
