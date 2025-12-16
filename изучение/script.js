@@ -50,4 +50,4 @@ console.log(airline1)
 
 // // changeP
 
-// boock.call(airline2, 345, Linda
+// boock.call(airline2, 345, Lind
