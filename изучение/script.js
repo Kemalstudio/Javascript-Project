@@ -50,4 +50,4 @@ console.log(airline1)
 
 // // changeP
 
-// oock.call(airline2, 34
+// oock.call(airline2, 3
