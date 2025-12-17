@@ -49,4 +49,4 @@ boock.call(airline, 111, 'Bob Smitsh');
 console.log(airline1)
 
 
-// boock.call(airli
+// boock.call(airl
