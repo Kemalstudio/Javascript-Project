@@ -53,4 +53,3 @@ console.log(airline1)
 
 const verify6cats = function(catsJane, catsJulia) {
     const catsjaneCorrect =  catsjane.slice()
-}
