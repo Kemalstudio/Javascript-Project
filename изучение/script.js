@@ -52,4 +52,5 @@ console.log(airline1)
 // boock.call(airline, 111, 'Bob  
 
 const verify6cats = function(catsJane, catsJulia) {
-    const catsjaneCorre
+    const catsjaneCorr
+    
