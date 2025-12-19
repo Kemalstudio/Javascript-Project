@@ -51,4 +51,4 @@ console.log(airline1)
 
 // boock.call(airline, 111, 'Bob  
 
-const verify6cats = function(cats
+const verify6cats = function(cat
