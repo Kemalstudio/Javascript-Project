@@ -49,4 +49,8 @@ boock.call(airline, 111, 'Bob Smitsh');
 console.log(airline1)
 
 
-// boock.call(airline, 111, 'Bob 
+// boock.call(airline, 111, 'Bob  
+
+const verify6cats = function(catsJane, catsJulia) {
+    const catsjaneCorrect =  catsjane.slice()
+}
