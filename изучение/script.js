@@ -22,3 +22,5 @@ console.log('------------------------------')
 
 console.log(nickname);
 console.log(nickname).join()
+
+// console.log('------------------------------')
