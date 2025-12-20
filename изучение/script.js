@@ -21,7 +21,7 @@ console.log('------------------------------')
 // })
 .join('');
 
-console.log(nickname);
+console.log(nickname).filter(toLowerCase);
 console.log(nickname).join()
 
 // console.log('------------------------------')
