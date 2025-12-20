@@ -15,7 +15,8 @@ console.log('------------------------------')
 // const nickname = userName
 // .toLowerCase()
 // .split(' ')
-// .map(function (word) {
+// .map(function (w
+// ord) {
 //     return word[0];
 // })
 .join('');
