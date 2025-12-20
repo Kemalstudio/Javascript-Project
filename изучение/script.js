@@ -25,4 +25,4 @@ console.log(nickname).filter(toLowerCase);
 console.log(nickname).join()
 
 // console.log('------------------------------')
-// console.log('-----------------
+// console.log('----------------
