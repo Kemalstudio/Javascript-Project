@@ -1,28 +1,20 @@
-const userName = 'Kemal Atayew';
-const nickname = userName
-.toLowerCase()
-.split(' ')
-.map(function (word) {
-    return word[0];
-})
-.join('');
+butonLogin.addEventListener('click', function() {
+    const username = document.getElementById('username').value;
+    const password = document.getElementById('password').value;
+    if (username === 'admin' && password === '1234') {
+        alert('Login successful!');
+    }
+    console.log('Login attempt with username:', username);
+});
 
-console.log(nickname);
-console.log(nickname).join()
-console.log('------------------------------')
-// 
-// const userName = 'Kemal Atayew';
-// const nickname = userName
-// .toLowerCase()
-// .split(' ')
-// .map(function (w
-// ord) {
-//     return word[0];
-// })
-.join('');
-
-console.log(nickname).filter(toLowerCase);
-console.log(nickname).join()
-
-// console.log('------------------------------')
-// console.log('---------------
+const butonLogin = document.getElementById('loginButton');
+if (butonLogin) {
+    butonLogin.addEventListener('click', function() {
+        const username = document.getElementById('username').value;
+        const password = document.getElementById('password').value;
+        if (username === 'admin' && password === '1234') {
+            alert('Login successful!');
+        }
+        console.log('Login attempt with username:', username);
+    });
+}
