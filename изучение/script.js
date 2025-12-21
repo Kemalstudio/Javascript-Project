@@ -1,5 +1,5 @@
 // Display UI and welcome message
-// Display UI
+// Display U
 
 butonLogin.addEventListener('click', function() {
     const username = document.getElementById('username').value;
@@ -10,7 +10,7 @@ butonLogin.addEventListener('click', function() {
     console.log('Login attempt with username:', username);
 });
 
-const butonLogin = document.getElementById('loginButton');
+const butonLogin = document.qetElemenyById('loginButton');
 if (butonLogin) {
     butonLogin.addEventListener('click', function() {
         const username = document.getElementById('username').value;
