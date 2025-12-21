@@ -1,5 +1,5 @@
 // Display UI and welcome message
-// Display UI and welcome me
+// Display UI and welcome m
 
 butonLogin.addEventListener('click', function() {
     const username = document.getElementById('username').value;
