@@ -1,5 +1,5 @@
 // Display UI and welcome message
-// Display UI and
+// Display UI an
 
 butonLogin.addEventListener('click', function() {
     const username = document.getElementById('username').value;
@@ -21,3 +21,6 @@ if (butonLogin) {
         console.log('Login attempt with username:', username);
     });
 }
+
+console.log(transactions.some(trans => trans === 50));
+console.log(transactions.some)
