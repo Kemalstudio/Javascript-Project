@@ -22,5 +22,6 @@ if (butonLogin) {
     });
 }
 
+const transactions = [200, -100, 340, -300, -20, 50, 400, -460];
+
 console.log(transactions.some(trans => trans === 50));
-console.log(transactions.some)
