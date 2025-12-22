@@ -11,10 +11,6 @@ const account1 = {
 };
 
 const account2 = {
-
-
-
-  
   userName: 'Amani Salt',
   transactions: [2000, 6400, -1350, -70, -210, -2000, 5500, -30],
   interest: 1.3,
