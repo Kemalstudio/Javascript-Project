@@ -163,7 +163,7 @@ btnLogin.addEventListener('click', function (e) {
   console.log(currentAccount);
 
   if (currentAccount?.pin === Number(inputLoginPin.value)) {
-    // Display UI and welcome message
+    // Display UI and welcome messag
     containerApp.style.opacity = 100;
 
     labelWelcome.textContent = `Рады, что вы снова с нами, ${
