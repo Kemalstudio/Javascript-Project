@@ -162,7 +162,7 @@ btnLogin.addEventListener('click', function (e) {
   console.log(currentAccount);
 
   if (currentAccount?.pin === Number(inputLoginPin.value)) {
-    // Display UI and 
+    // Display UI and
     containerApp.style.opacity = 100;
 
     labelWelcome.textContent = `Рады, что вы снова с нами, ${
