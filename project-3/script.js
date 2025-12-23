@@ -154,7 +154,6 @@ const updateUi = function (account) {
 let currentAccount;
 
 // Event Handlers
-
 btnLogin.addEventListener('click', function (e) {
   e.preventDefault();
   currentAccount = accounts.find(
@@ -163,7 +162,7 @@ btnLogin.addEventListener('click', function (e) {
   console.log(currentAccount);
 
   if (currentAccount?.pin === Number(inputLoginPin.value)) {
-    // Display UI and welcome messag
+    // Display UI and welcome messa
     containerApp.style.opacity = 100;
 
     labelWelcome.textContent = `Рады, что вы снова с нами, ${
