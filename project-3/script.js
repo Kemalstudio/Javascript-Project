@@ -90,7 +90,6 @@ const displayTransactions = function (transactions, sort = false) {
 
 // console.log(containerTransactions.innerHTML);
 
-
 const createNicknames = function (accs) {
   accs.forEach(function (acc) {
     acc.nickname = acc.userName
