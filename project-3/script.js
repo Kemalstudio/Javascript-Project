@@ -8,7 +8,6 @@ const account1 = {
   interest: 1.5,
   pin: 1111,
 };
-
 const account2 = {
   userName: 'Amani Salt',
   transactions: [2000, 6400, -1350, -70, -210, -2000, 5500, -30],
