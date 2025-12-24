@@ -153,7 +153,7 @@ const updateUi = function (account) {
 
 let currentAccount;
 
-// Event Handler
+// Event Handle
 btnLogin.addEventListener('click', function (e) {
   e.preventDefault();
   currentAccount = accounts.find(
