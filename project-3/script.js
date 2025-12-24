@@ -2,7 +2,6 @@
 
 // Simply Bank App
 
-
 const account1 = {
   userName: 'Cecil Ireland',
   transactions: [500, 250, -300, 5000, -850, -110, -170, 1100],
