@@ -1,7 +1,7 @@
 'use strict';
 
 // Simply Bank App
-// Simply Bank
+// Simply Ban
 
 const account1 = {
   userName: 'Cecil Ireland',
