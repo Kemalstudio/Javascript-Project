@@ -1,6 +1,6 @@
 'use strict';
 
-// Simply Ban
+// Simply Ba
 
 const account1 = {
   userName: 'Cecil Ireland',
