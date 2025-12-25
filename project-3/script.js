@@ -1,6 +1,6 @@
 'use strict';
 
-// Simp
+// Sim
 
 const account1 = {
   userName: 'Cecil Ireland',
