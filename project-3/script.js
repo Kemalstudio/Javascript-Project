@@ -1,6 +1,6 @@
 'use strict';
 
-// Simply B
+// Simply 
 
 const account1 = {
   userName: 'Cecil Ireland',
