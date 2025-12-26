@@ -85,7 +85,8 @@ const displayTransactions = function (transactions, sort = false) {
   });
 };
 
-// console.log(containerTransactions
+
+// console.log(containerTransactions.
 
 const createNicknames = function (accs) {
   accs.forEach(function (acc) {
