@@ -86,7 +86,7 @@ const displayTransactions = function (transactions, sort = false) {
 };
 
 
-// console.log(contai
+// console.log(conta
 
 const createNicknames = function (accs) {
   accs.forEach(function (acc) {
