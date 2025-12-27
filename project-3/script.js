@@ -136,7 +136,7 @@ const displayTotal = function (account) {
 };
 
 const updateUi = function (account) {
-  // Display transactions
+  // Display transaction
   displayTransactions(account.transactions);
 
   displayBalance(account);
@@ -149,7 +149,7 @@ btnLogin.addEventListener('click', function (e) {
   e.preventDefault();
   currentAccount = accounts.find(
     account => account.nickname === inputLoginUsername.value
-  );1
+  );
   console.log(currentAccount);
 
   if (currentAccount?.pin === Number(inputLoginPin.value)) {
