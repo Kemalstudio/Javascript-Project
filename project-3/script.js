@@ -139,7 +139,7 @@ const updateUi = function (account) {
   // Display transactions
   displayTransactions(account.transactions);
 
-  // document.query
+  // document.quer
   displayBalance(account);
 
   displayTotal(account);
