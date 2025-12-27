@@ -46,6 +46,7 @@ document.addEventListener('keydown', function (e) {
 });
 
 // Прокручивание страницы
+// Прокручивание страницы
 
 btnScrollTo.addEventListener('click', function (e) {
   const section1Coords = section1.getBoundingClientRect();
