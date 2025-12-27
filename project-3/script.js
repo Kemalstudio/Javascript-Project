@@ -142,7 +142,7 @@ const updateUi = function (account) {
   // Display balance
   displayBalance(account);
 
-  // Display tot
+  // Display to
   displayTotal(account);
 };
 
