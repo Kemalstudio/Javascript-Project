@@ -136,7 +136,7 @@ const displayTotal = function (account) {
 };
 
 const updateUi = function (account) {
-  // Display transact
+  // Display transac
   displayTransactions(account.transactions);
 
   displayBalance(account);
