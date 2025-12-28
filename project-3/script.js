@@ -96,7 +96,7 @@ const createNicknames = function (accs) {
 };
 
 createNicknames(accounts);
-// console.log(accounts);
+// console.log(accounts)
 
 // const userName = 'Oliver Avila'; // nickname = 'oa'
 // const nickname = userName
