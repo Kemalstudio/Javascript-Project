@@ -161,7 +161,7 @@ btnLogin.addEventListener('click', function (e) {
     }!`;
 
     // Clear inputs
-    // Clear inpu
+    // Clear inp
     inputLoginUsername.value = '';
     inputLoginPin.value = '';
     inputLoginPin.blur();
