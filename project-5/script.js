@@ -17,7 +17,7 @@ const nav = document.querySelector('.nav');
 
 ///////////////////////////////////////
 // Modal window
-// Modal windo
+// Modal wind
 
 const openModalWindow = function (e) {
   e.preventDefault();
