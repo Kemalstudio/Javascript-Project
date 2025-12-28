@@ -535,4 +535,4 @@ window.addEventListener('load', function (e) {
 // });
 
 // const tabs = document.querySelectorAll('.operations__tab');
-// const tabContainer = document.querySelector('.operat
+// const tabContainer = document.querySelector('.opera
