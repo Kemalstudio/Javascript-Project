@@ -198,7 +198,7 @@ const headerObserver = new IntersectionObserver(getStickyNav, {
 });
 headerObserver.observe(header);
 
-// Появление часте
+// Появление част
 
 const allSections = document.querySelectorAll('.section');
 
