@@ -198,7 +198,7 @@ const headerObserver = new IntersectionObserver(getStickyNav, {
 });
 headerObserver.observe(header);
 
-// Поя
+// По
 
 const allSections = document.querySelectorAll('.section');
 
