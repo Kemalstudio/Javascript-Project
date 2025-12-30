@@ -176,7 +176,7 @@ nav.addEventListener('mouseout', navLinksHoverAnimation.bind(1));
 // };
 
 // const observer = new IntersectionObserver(observerCallback, observerOptions);
-// observer.observe(sectio
+// observer.observe(secti
 
 const header = document.querySelector('.header');
 const navHeight = nav.getBoundingClientRect().height;
