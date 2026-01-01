@@ -218,18 +218,14 @@ allSections.forEach(function (section) {
   section.classList.add('section--hidden');
 });
 
-// Имплементация lazy
 const lazyImages = document.querySelectorAll('img[data-src]');
 
 const loadImages = function (entries, observer) {
   const entry = entries[0];
-  // console.log(entry);
 
   if (!entry.isIntersecting) return;
 
-  // Меняем изображение на изображение с высоким разрешением
   entry.target.src = entry.target.dataset.src;
-  // entry.target.classList.remove('lazy-img');
 
   entry.target.addEventListener('load', function () {
     entry.target.classList.remove('lazy-img');
