@@ -227,7 +227,7 @@ const loadImages = function (entries, observer) {
 
   if (!entry.isIntersecting) return;
 
-  // Меняем изображение на изображение с высоким разрешением
+  // Меняем изображение на изображение с высоким разрешение
   entry.target.src = entry.target.dataset.src;
   // entry.target.classList.remove('lazy-img');
 
