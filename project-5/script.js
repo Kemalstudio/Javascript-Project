@@ -180,7 +180,7 @@ nav.addEventListener('mouseout', navLinksHoverAnimation.bind(1));
 
 const header = document.querySelector('.header');
 const navHeight = nav.getBoundingClientRect().height;
-// console.l
+// console.log(navHeight);
 const getStickyNav = function (entries) {
   const entry = entries[0];
   // console.log(entry);
@@ -215,10 +215,10 @@ const sectionObserver = new IntersectionObserver(appearanceSection, {
 
 allSections.forEach(function (section) {
   sectionObserver.observe(section);
-  section.classList.ad
-  d('section--hidden');
+  section.classList.add('section--hidden');
 });
 
+// Имплементация lazy
 const lazyImages = document.querySelectorAll('img[data-src]');
 
 const loadImages = function (entries, observer) {
@@ -227,7 +227,7 @@ const loadImages = function (entries, observer) {
 
   if (!entry.isIntersecting) return;
 
-  // Меняем изображение на изображение с высоким разрешение
+  // Меняем изображение на изображение с высоким разрешением
   entry.target.src = entry.target.dataset.src;
   // entry.target.classList.remove('lazy-img');
 
@@ -239,11 +239,12 @@ const loadImages = function (entries, observer) {
 
 const lazyImagesObserver = new IntersectionObserver(loadImages, {
   root: null,
-  threshold: 0.7, 
+  threshold: 0.7,
   // rootMargin: '300px',
 });
 lazyImages.forEach(image => lazyImagesObserver.observe(image));
 
+// Создание слайдера
 const slides = document.querySelectorAll('.slide');
 const btnLeft = document.querySelector('.slider__btn--left');
 const btnRight = document.querySelector('.slider__btn--right');
