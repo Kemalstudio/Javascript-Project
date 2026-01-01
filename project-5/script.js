@@ -215,7 +215,8 @@ const sectionObserver = new IntersectionObserver(appearanceSection, {
 
 allSections.forEach(function (section) {
   sectionObserver.observe(section);
-  section.classList.add('section--hidden');
+  section.classList.ad
+  d('section--hidden');
 });
 
 // И
