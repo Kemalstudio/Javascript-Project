@@ -218,7 +218,7 @@ allSections.forEach(function (section) {
   section.classList.add('section--hidden');
 });
 
-// Имп
+// Им
 const lazyImages = document.querySelectorAll('img[data-src]');
 
 const loadImages = function (entries, observer) {
