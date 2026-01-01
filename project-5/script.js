@@ -244,7 +244,7 @@ const lazyImagesObserver = new IntersectionObserver(loadImages, {
 });
 lazyImages.forEach(image => lazyImagesObserver.observe(image));
 
-// Соз
+// Со
 const slides = document.querySelectorAll('.slide');
 const btnLeft = document.querySelector('.slider__btn--left');
 const btnRight = document.querySelector('.slider__btn--right');
