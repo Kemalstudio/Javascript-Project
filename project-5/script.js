@@ -180,7 +180,7 @@ nav.addEventListener('mouseout', navLinksHoverAnimation.bind(1));
 
 const header = document.querySelector('.header');
 const navHeight = nav.getBoundingClientRect().height;
-// console.log
+// console.lo
 const getStickyNav = function (entries) {
   const entry = entries[0];
   // console.log(entry);
