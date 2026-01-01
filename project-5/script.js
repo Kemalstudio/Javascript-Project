@@ -219,7 +219,7 @@ allSections.forEach(function (section) {
   d('section--hidden');
 });
 
-//
+/
 const lazyImages = document.querySelectorAll('img[data-src]');
 
 const loadImages = function (entries, observer) {
