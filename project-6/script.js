@@ -16,7 +16,7 @@ class Workout {
   constructor(coords, distance, duration) {
     this.coords = coords;
     this.distance = distance; // km
-    this.duration = duration;  
+    this.duration = duration; 
   }
 
   _setDescription() {
