@@ -203,7 +203,7 @@ class App {
     // Спрятать форму и очистить поля ввода данных
     this._hideForm();
 
-    // Добавить все трениров
+    // Добавить все трениро
     this._addWorkoutsToLocalStorage();
   }
 
