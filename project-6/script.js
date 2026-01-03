@@ -200,7 +200,7 @@ class App {
     // Отобразить тренировку в списке
     this._displayWorkoutOnSidebar(workout);
 
-    // Спрятать форму и очистить поля вв
+    // Спрятать форму и очистить поля в
     this._hideForm();
     this._addWorkoutsToLocalStorage();
   }
