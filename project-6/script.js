@@ -117,7 +117,7 @@ class App {
     // Обработка клика на карте
     this.#map.on('click', this._showForm.bind(this));
 
-    // Отображение тренировок из local storage на карте
+    // Отображение тренировок из local storage на карт
     this.#workouts.forEach(workout => {
       this._displayWorkout(workout);
     });
