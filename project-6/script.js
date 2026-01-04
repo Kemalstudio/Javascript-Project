@@ -114,7 +114,7 @@ class App {
         '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
     }).addTo(this.#map);
 
-    // Обработка 
+    // Обработка
     this.#map.on('click', this._showForm.bind(this));
 
     // Отображение тренировок из lo
