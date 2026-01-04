@@ -168,7 +168,7 @@ class App {
         // !Number.isFinite(duration) ||
         // !Number.isFinite(temp)
         !areNumbers(distance, duration, temp) ||
-        !areNumbersPositive(distance, duration, temp)
+        !areNumbersPositive( distance, duration, temp)
       )
         return alert('Введите положительное число!');
 
