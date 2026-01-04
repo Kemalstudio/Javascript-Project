@@ -175,7 +175,7 @@ class App {
       workout = new Running([lat, lng], distance, duration, temp);
     }
 
-    // Если тренировка является велотренировкой, создать объект Cyclin
+    // Если тренировка является велотренировкой, создать объект Cycli
     if (type === 'cycling') {
       const climb = +inputClimb.value;
       // Проверка валидности данных
