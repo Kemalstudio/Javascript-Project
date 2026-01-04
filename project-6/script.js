@@ -182,7 +182,6 @@ class App {
       if (
         // !Number.isFinite(distance) ||
         // !Number.isFinite(duration) ||
-        // !Number.isFinite(climb)
         !areNumbers(distance, duration, climb) ||
         !areNumbersPositive(distance, duration)
       )
@@ -202,7 +201,7 @@ class App {
 
     // 
     this._hideForm();
-    this._addWorkoutsToLocalStorage();
+    this._addWorkoutsToLocalStorage(); 
   }
 
   _displayWorkout(workout) {
