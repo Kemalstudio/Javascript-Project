@@ -76,7 +76,6 @@ class App {
 
   constructor() {
     this._getPosition();
-
     this._getLocalStorageData();
 
     form.addEventListener('submit', this._newWorkout.bind(this));
