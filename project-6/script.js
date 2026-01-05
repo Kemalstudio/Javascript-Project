@@ -81,7 +81,6 @@ class App {
     // Получение данных из local storage
     this._getLocalStorageData();
 
-    // Добавление обраб
     form.addEventListener('submit', this._newWorkout.bind(this));
     inputType.addEventListener('change', this._toggleClimbField);
     containerWorkouts.addEventListener('click', this._moveToWorkout.bind(this));
