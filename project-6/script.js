@@ -78,7 +78,6 @@ class App {
     // Получение местоположения пользователя
     this._getPosition();
 
-    // Получение данных из local storage
     this._getLocalStorageData();
 
     form.addEventListener('submit', this._newWorkout.bind(this));
