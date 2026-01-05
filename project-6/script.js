@@ -75,7 +75,6 @@ class App {
   #workouts = [];
 
   constructor() {
-    // Получение местоположения пользователя
     this._getPosition();
 
     this._getLocalStorageData();
