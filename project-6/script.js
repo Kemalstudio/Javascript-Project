@@ -112,7 +112,7 @@ class App {
 
     this.#map.on('click', this._showForm.bind(this));
 
-    // Отображение трениров
+    // Отображение трениро
     this.#workouts.forEach(workout => {
       this._displayWorkout(workout);
     });
