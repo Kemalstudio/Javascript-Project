@@ -314,4 +314,4 @@ class App {
 const app = new App();
 
 
-// const getuserPositon = function ) {//   ruetr
+// const getuserPositon = function ) {//   ruet
