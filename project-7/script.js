@@ -112,7 +112,7 @@ const getDataAndConvertToJSON = function (
 //   getCoutnryData('ukraine');
 // });
 
-//////////////////////////////////
+/////////////////////////////////
 
 // const getCoutnryData = function (countryName) {
 //   const request = new XMLHttpRequest();
