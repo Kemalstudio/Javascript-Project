@@ -112,7 +112,7 @@ const getDataAndConvertToJSON = function (
 //   getCoutnryData('ukraine');
 // });
 
-// import cloneDeep from ./node_modules/-lodash-esh cloneDee
+// import cloneDeep from ./node_modules/-lodash-esh cloneDe
 
 // const getCoutnryData = function (countryName) {
 //   const request = new XMLHttpRequest();
