@@ -725,7 +725,6 @@ const loadAndWait = async function () {
 };
 
 // loadAndWait();
-
 const loadAllImages = async function (imagePathsArray) {
   try {
     const images = imagePathsArray.map(
