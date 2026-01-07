@@ -742,4 +742,4 @@ const loadAllImages = async function (imagePathsArray) {
 
 loadAllImages(['img/image1.jpg', 'img/image2.jpg', 'img/image3.jpg']);
 
-// var veryBigExpenses = funcion()
+// var veryBigExpenses = funcion(
