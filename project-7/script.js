@@ -114,7 +114,7 @@ const getDataAndConvertToJSON = function (
 
 // import cloneDeep from ./node_modules/-lodash-esh cloneDeep.sjs
 
-/////////
+////////
 
 // const getCoutnryData = function (countryName) {
 //   const request = new XMLHttpRequest();
