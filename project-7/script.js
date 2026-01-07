@@ -658,7 +658,7 @@ const getDataAndConvertToJSON = function (
 // 8. Добавьте класс parallel для всех изображений (в нём есть некоторые стили CSS).
 // Тестовые данные:
 // ['img / image1.jpg', 'img / image2.jpg', 'img / image3.jpg']
-// Для теста отключите функцию loadAndWait(
+// Для теста отключите функцию loadAndWait
 
 const wait = function (seconds) {
   return new Promise(function (resolve) {
