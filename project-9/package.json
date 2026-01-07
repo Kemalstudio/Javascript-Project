@@ -1,0 +1,29 @@
+{
+  "name": "startercode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/U-Ra-All/JavaScriptModernTools.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/U-Ra-All/JavaScriptModernTools/issues"
+  },
+  "homepage": "https://github.com/U-Ra-All/JavaScriptModernTools#readme",
+  "dependencies": {
+    "core-js": "^3.19.3",
+    "leaflet": "^1.7.1",
+    "lodash-es": "^4.17.21",
+    "regenerator-runtime": "^0.13.9"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
