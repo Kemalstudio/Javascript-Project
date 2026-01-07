@@ -668,7 +668,7 @@ const wait = function (seconds) {
 
 const imageContainer = document.querySelector('.images');
 
-// l
+// 
 
 const createImageElement = function (imagePath) {
   return new Promise(function (resolve, reject) {
