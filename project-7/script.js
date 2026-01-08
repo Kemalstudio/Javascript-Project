@@ -709,7 +709,7 @@ const loadAndWait = async function () {
     // Загрузка первого изображения
     let image = await createImageElement('img/image1.jpg');
     console.log('Первое изображение загружено');
-    await wait(2);
+    await wait(2); 
     image.style.display = 'none';
 
     // Загрузка второго изображения
