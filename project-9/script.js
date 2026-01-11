@@ -65,6 +65,9 @@ addToCart('трусы', 2);
 //       `${product} в количестве ${quantity} шт добавлено в корзину, цена доставки ${shippingCost}`
 //     );
 //   };
+/
+
+
 
 //   const productOrderedMessage = function (product, quantity) {
 //     console.log(`${product} в количестве ${quantity} шт заказан`);
@@ -125,3 +128,9 @@ addToCart('трусы', 2);
 
 // // Полифиллинг асинхронных функций
 // import 'regenerator-runtime/runtime';
+
+async function getFilm() {
+    const res = await fetch('https://swapi.dev/api/films/1/');
+    const data = await res.json();
+    console.log(data);
+}
