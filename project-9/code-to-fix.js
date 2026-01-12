@@ -57,7 +57,7 @@ const incomesAndExpenses1 = addExpense(
 console.log(incomesAndExpenses1);
 
 const incomesAndExpenses2 = addExpense(
-  incomesAndExpenses1,
+  incomesAndExpenses1, 
   expenseLimits,
   10,
   'Going to cinema 🍿',
