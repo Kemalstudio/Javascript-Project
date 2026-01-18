@@ -128,9 +128,3 @@ addToCart('трусы', 2);
 
 // // Полифиллинг асинхронных функций
 // import 'regenerator-runtime/runtime';
-
-async function getFilm() {
-    const res = await fetch('https://swapi.dev/api/films/1/');
-    const data = await res.json();
-    console.log(data);
-}
