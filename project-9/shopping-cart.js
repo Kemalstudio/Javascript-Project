@@ -26,4 +26,4 @@ export default function (product, quantity) {
   console.log(`${product} в количестве ${quantity} шт добавлено в корзину`);
 }
 
-// import React, {useE
+// import React, {use
