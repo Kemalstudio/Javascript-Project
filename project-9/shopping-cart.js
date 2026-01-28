@@ -26,4 +26,4 @@ export default function (product, quantity) {
   console.log(`${product} в количестве ${quantity} шт добавлено в корзину`);
 }
 
-// export { totalPrice, totalQuantity as quantit
+// export { totalPrice, totalQuantity as quanti
