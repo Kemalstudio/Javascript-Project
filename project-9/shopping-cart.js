@@ -25,4 +25,5 @@ export default function (product, quantity) {
   cart.push({ product, quantity });
   console.log(`${product} в количестве ${quantity} шт добавлено в корзину`);
 }
-// export { totalPri    nnnn
+
+// export { totalPri    nnn
