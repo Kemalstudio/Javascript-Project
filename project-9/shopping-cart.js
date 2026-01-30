@@ -16,7 +16,7 @@ addProductToCart = function (product, quantity) {
   console.log(`${product} в количестве ${quantity} шт добавлено в корзину`);
 };
 
-const totalPrice = 300;
+const totalPrice = 250;
 const totalQuantity = 7;
 
 export { totalPrice, totalQuantity as quantity };
