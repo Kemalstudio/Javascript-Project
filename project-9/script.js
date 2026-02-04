@@ -127,4 +127,4 @@ addToCart('трусы', 2);
 // import 'core-js/stable';
 
 // // Полифиллинг асинхронных функций
-// import 'regenerator-ru 
+// import 'regenerator-ru
