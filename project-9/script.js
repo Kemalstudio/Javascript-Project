@@ -126,4 +126,3 @@ addToCart('трусы', 2);
 
 // import 'core-js/stable';
 
-/
