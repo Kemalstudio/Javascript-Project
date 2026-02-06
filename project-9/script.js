@@ -124,4 +124,3 @@ addToCart('трусы', 2);
 
 // Promise.resolve('Testing').then(a => console.log(a));
 
-/
