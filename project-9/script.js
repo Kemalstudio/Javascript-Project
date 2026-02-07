@@ -121,4 +121,4 @@ addToCart('трусы', 2);
 // if (module.hot) {
 //   module.hot.accept(); 
 
-// Promise.resolve('Tes
+// Promise.resolve('Te
