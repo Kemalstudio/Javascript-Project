@@ -118,4 +118,4 @@ addToCart('трусы', 2);
 // console.log(stateCopy);
 // console.log(stateDeepCopy);
 
-// if (module.hot) {
+// if (module.hot) 
