@@ -120,4 +120,3 @@ addToCart('трусы', 2);
 
 // if (module.hot) {
 //   module.hot.accept(); 
- 
