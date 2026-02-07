@@ -119,4 +119,4 @@ addToCart('трусы', 2);
 // console.log(stateDeepCopy);
 
 // if (module.hot) {
-//   module.ho
+//   module.h
