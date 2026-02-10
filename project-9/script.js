@@ -117,4 +117,3 @@ addToCart('трусы', 2);
 // state.user.loggedIn = false;
 // console.log(stateCopy);
 // console.log(stateDeepCopy);
-
