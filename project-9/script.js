@@ -114,4 +114,3 @@ addToCart('трусы', 2);
 // };
 // const stateCopy = Object.assign({}, state);
 // const stateDeepCopy = cloneDeep(state);
-/
