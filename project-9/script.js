@@ -108,6 +108,7 @@ addToCart('трусы', 2);
 // const state = {
 //   cart: [
 //     { product: 'яблоко', quantity: 5 },
+
 //     { product: 'апельсин', quantity: 3 },
 //   ],
 //   user: { loggedIn: true },
