@@ -113,4 +113,4 @@ addToCart('трусы', 2);
 //   ],
 //   user: { loggedIn: true },
 // };
-// const stateCopy = Object.assign({}, st
+// const stateCopy = Object.assign({}, s
