@@ -115,3 +115,4 @@ addToCart('трусы', 2);
 // };
 // const stateCopy = Object.assign({}, stat
 h\
+
