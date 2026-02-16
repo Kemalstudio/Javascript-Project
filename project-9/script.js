@@ -10,4 +10,3 @@ export function fetchData() {
             dispatch({type: "userList/fetchDataFailure", payload: error.message});
         })
     }
-}
