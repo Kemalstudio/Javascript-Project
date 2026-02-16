@@ -7,4 +7,4 @@ export function fetchData() {
             const data = await res.json();
             dispatch({type: "userList/fetchDataSuccess", payload: data});
         } catch (error {
-            dispatch({type: "userList/fetchDataFailure", payload: e
+            dispatch({type: "userList/fetchDataFailure", payload: 
