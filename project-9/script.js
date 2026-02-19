@@ -8,4 +8,4 @@ export function fetchData() {
             dispatch({type: "userList/fetchDataSuccess", payload: data});
         } catch (error {
             dispatch({type: "userList/fetchDataFailure",  
-    button className="btn btn-prima
+    button className="btn btn-prim
