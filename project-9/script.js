@@ -6,5 +6,8 @@ export function fetchData() {
             const res = await fetch("https://jsonplaceholder.typicode.com/users");
             const data = await res.json();
             dispatch({type: "userList/fetchDataSuccess", payload: data});
-        } catch (error {
-            dispatch({type: "userList/fetchDa
+        } catch (error) {
+            dispatch({type: "userList/fetchDateError", payload: error.message});
+        }
+    }
+}
