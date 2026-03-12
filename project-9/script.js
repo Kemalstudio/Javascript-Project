@@ -16,4 +16,4 @@ export function fetchData() {
 //     return function (dispatch) {
 //         dispatch({type: "userList/fetchData"});
 //         fetch("https://jsonplaceholder.typicod
-43
+4
