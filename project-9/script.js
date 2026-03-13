@@ -12,4 +12,4 @@ export function fetchData() {
     }
 }
 
-// export func
+// export fun
