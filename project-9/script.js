@@ -13,4 +13,3 @@ export function fetchData() {
 }
 
 // export function fetchData() {
-/
