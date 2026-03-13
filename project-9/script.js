@@ -25,4 +25,3 @@ export function fetchData() {
 //             dispatch({type: "userList/fetchDateError", payload: error.message});        }
 //         }
 //     }
-/
