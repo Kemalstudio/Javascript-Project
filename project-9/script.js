@@ -15,12 +15,12 @@ export function fetchData() {
 
 // export function fetchData() {
 //     return async function (dispatch, getState) {
-//         console.log(getState());
+//         console.log(getState());1
 //         dispatch({type: "userList/fetchData"});
 //         try {
 //             const res = await fetch("https://jsonplaceholder.typicode.com/users");
 //             const data = await res.json();
 //             dispatch({type: "userList/fetchDataSuccess", payload: data});
-//         } catch (error) {
+//        wa } catch (error) {
 //             dispatch({type: "userList/fetchDateError", payload: error.message});        }
 // 
