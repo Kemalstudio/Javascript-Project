@@ -22,4 +22,4 @@ export function fetchData() {
 //             const data = await res.json();
 //             dispatch({type: "userList/fetchDataSuccess", payload: data});
 //        wa } catch (error) {
-//             dispatch({type: "userList/fetchDateError", paylo
+//             dispatch({type: "userList/fetchDateError", payl
