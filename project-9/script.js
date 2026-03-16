@@ -12,7 +12,6 @@ export function fetchData() {
     }
 }
 
-
 // export function fetchData() {
 //     return async function (dispatch, getState) {
 //         console.log(getState());1
@@ -22,4 +21,5 @@ export function fetchData() {
 //             const data = await res.json();
 //             dispatch({type: "userList/fetchDataSuccess", payload: data});
 //        wa } catch (error) {
-//       dispatch({type: "userList/fetchDateError", payload
+
+//       dispatch({
