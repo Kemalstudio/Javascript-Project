@@ -23,4 +23,3 @@ export function fetchData() {
 //             dispatch({type: "userList/fetchDataSuccess", payload: data});
 //        wa } catch (error) {
 //             dispatch({type: "userList/fetchDateError", payload: error.message});        }
-//
