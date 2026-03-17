@@ -19,4 +19,4 @@ export function fetchData() {
 //         try {
 //             const res = await fetch("https://jsonplaceholder.typicode.com/users");
 //             const data = await res.json();
-//             dispatch({type: "userList/fetchDataSuccess", payload: data}
+//             dispatch({type: "userList/fetchDataSuccess", payload: data
