@@ -18,5 +18,5 @@ export function fetchData() {
 //         dispatch({type: "userList/fetchData"});
 //         try {
 //             const res = await fetch("https://jsonplaceholder.typicode.com/users");
-//             const data = await res.json();
-//             dispatch({type: "userList/fetchDataSuccess", payload: data
+//             const data = await res.json();wwwwwwwwwwww
+//             dispatch({type: "userList/fetchDataSuccess", payload: dat
