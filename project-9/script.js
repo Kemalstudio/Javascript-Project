@@ -30,5 +30,5 @@ const gltfLoader = new GLTFLoader();
 //         console.log(getState());1
 //         dispatch({type: "userList/fetchData"});
 //         try {
-//             const res = a
+//             const res = 
 const gLoader = new gltfLoader()
