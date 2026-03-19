@@ -29,6 +29,6 @@ const gltfLoader = new GLTFLoader();
 //     return async function (dispatch, getState) {
 //         console.log(getState());1
 //         dispatch({type: "userList/fetchData"});
-//         try
+//         tr
 //     
 const gLoader = new gltfLoader()
