@@ -24,8 +24,8 @@ scene.add(directionalLight);
 
 const gltfLoader = new GLTFLoader();
 
-
 // export function fetchData() {
+
 //     return async function (dispatch, getState) {
 //         console.log(getState());1
 //         dispatch({type: "userList/fetchData"});
