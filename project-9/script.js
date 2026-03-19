@@ -17,4 +17,4 @@ export function fetchData() {
 //         console.log(getState());1
 //         dispatch({type: "userList/fetchData"});
 //         try {
-//             const res = await fetch("https://jsonplaceholder.typicode.com/use
+//             const res = await fetch("https://jsonplaceholder.typicode.com/us
