@@ -30,4 +30,4 @@ const gltfLoader = new GLTFLoader();
 //         console.log(getState());1
 //         dispatch({type: "userList/fetchData"}
 // 
-const gLoader =
+const gLoader 
