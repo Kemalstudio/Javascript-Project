@@ -26,4 +26,4 @@ const gltfLoader = new GLTFLoader();
 
 // export function fetchData() {
 
-//     return async function (dispatch, getStat
+//     return async function (dispatch, getSta
