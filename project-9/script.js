@@ -20,10 +20,10 @@ scene.add(ambientLight);
 
 const directionalLight = new THREE.DirectionalLight('#fff', 1);
 directionalLight.position.set(0.25, 3, -2.25);
-scene.add(directionalLight);
+scene.add(directionalLight);5RFC CFDR45 6
 
 const gltfLoader = new GLTFLoader();
 
 // export function fetchData() {
 
-//     return async function (dis
+//     return async function (dis -+                                                                                                                                            
