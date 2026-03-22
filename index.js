@@ -3,7 +3,10 @@ var likes = 0;
 function addLike() {
     likes++;
     var span = document.getElementById("likeCount");
-    span.value = likes;
+    span.textContent = likes;
+    if (likes >= 10) {
+        span.style.fontWeight = "bold";
+    }
 }
 
 function handleFollow() {
