@@ -20,6 +20,7 @@ scene.add(ambientLight);
 
 const directionalLight = new THREE.DirectionalLight('#fff', 1);
 directionalLight.position.set(0.25, 3, -2.25);
+directionalLight.position.set(10, 10, 10);
 scene.add(directionalLight);
 
 const gltfLoader = new GLTFLoader();
