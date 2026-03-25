@@ -24,4 +24,21 @@ scene.add(directionalLight);
 
 const gltfLoader = new GLTFLoader();
 
-// 
+// gltfLoader.load('./models/FlightHelmet/glTF/FlightHelmet.gltf', (gltf) => {
+    gltfLoader.load('./models/FlightHelmet/glTF-Binary/FlightHelmet.glb', (gltf) => {
+        gltf.scene.scale.set(10, 10, 10);
+        gltf.scene.rotation.y = Math.PI * 0.5;
+        scene.add(gltf.scene);
+    });
+
+const clock = new THREE.Clock();
+
+function animate() {
+    const elapsedTime = clock.getElapsedTime();
+    
+    // Update objects
+    gltf.scene.rotation.y = elapsedTime * 0.5;
+
+    // Render
+    renderer.render(scene, )
+}
