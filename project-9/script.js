@@ -41,4 +41,3 @@ const clock = new THREE.Clock();
 
 //     // Render
 //     renderer.render(scene, )
-//
