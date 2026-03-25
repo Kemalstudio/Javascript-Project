@@ -24,4 +24,4 @@ scene.add(directionalLight);
 
 const gltfLoader = new GLTFLoader();
 
-// ex1
+// ex
