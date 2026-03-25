@@ -26,4 +26,3 @@ const gltfLoader = new GLTFLoader();
 
 // export function fetchData() {
 
-/
