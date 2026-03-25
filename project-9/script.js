@@ -33,12 +33,12 @@ const gltfLoader = new GLTFLoader();
 
 const clock = new THREE.Clock();
 
-function animate() {
-    const elapsedTime = clock.getElapsedTime();
+// function animate() {
+//     const elapsedTime = clock.getElapsedTime();
     
-    // Update objects
-    gltf.scene.rotation.y = elapsedTime * 0.5;
+//     // Update objects
+//     gltf.scene.rotation.y = elapsedTime * 0.5;
 
-    // Render
-    renderer.render(scene, )
-}
+//     // Render
+//     renderer.render(scene, )
+// }
