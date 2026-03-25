@@ -4,7 +4,7 @@ console.log('Экспорт модуля');
 // Блокирующий код
 // console.log('Начало извлечения пользователей');
 // const result = await fetch('https://jsonplaceholder.typicode.com/users');
-// console.log('Конец извлечения пользо
+// console.log('Конец извлечения польз
 
 const shippingCost = 20;
 export const cart = [];
