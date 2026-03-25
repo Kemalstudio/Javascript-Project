@@ -25,4 +25,3 @@ scene.add(directionalLight);
 const gltfLoader = new GLTFLoader();
 
 // export function fetchData() {
-
