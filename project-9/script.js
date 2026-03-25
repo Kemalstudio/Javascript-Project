@@ -41,4 +41,4 @@ const clock = new THREE.Clock();
 //     gltf.scene.rotation.y = elapsedTime * 0.5;
 
 //     // Render
-//     renderer.render(scene, )
+//     renderer.render(scene, 
